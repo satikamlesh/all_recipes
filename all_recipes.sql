@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 30, 2020 at 10:56 AM
+-- Generation Time: Dec 30, 2020 at 12:55 PM
 -- Server version: 10.4.10-MariaDB
 -- PHP Version: 7.3.12
 
@@ -561,7 +561,7 @@ INSERT INTO `settings` (`key`, `value`, `default_value`, `required`) VALUES
 ('twitter', 'https://twitter.com/marwa_elmanawy', NULL, 0),
 ('vimeo', 'https://vimeo.com/', NULL, 0),
 ('vine', 'https://vine.com/', NULL, 0),
-('visitors', '1372', '0', 0),
+('visitors', '1376', '0', 0),
 ('webmaster_email', 'kamleshsati7@gmail.com', NULL, 0),
 ('youtube', 'https://www.youtube.com/channel/UCTSXnKoLgfZZk2MN_jLUOnA?view_as=subscriber', NULL, 0);
 
@@ -637,9 +637,9 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`user_id`, `usergroup_id`, `username`, `email`, `firstname`, `lastname`, `image`, `password`, `country_id`, `gender`, `status`, `created`, `description`, `visited`, `email_appear`) VALUES
-(1, 1, 'Admin', 'admin@admin.com', 'Marwa', 'El-Manawy', '1.jpg', '4074dc66def059a04f3fef44525700d5', 1, 'male', 'active', '2018-08-15 02:25:41', 'I\'m Sandra and this is where I share my stuff. I am madly in love with food. You will find a balance of healthy recipes, comfort food and indulgent desserts.', 9, 0),
-(3, 2, 'rajesh', 'rajesh@i2k2.com', 'Rajesh', 'Jha', '3.jpg', '4074dc66def059a04f3fef44525700d5', 99, 'male', 'active', '2018-08-15 03:39:41', 'I\'m Sandra and this is where I share my stuff. I am madly in love with food. You will find a balance of healthy recipes, comfort food and indulgent desserts.', 0, 0),
-(5, 2, 'kamlesh', 'kamlesh@i2k2.com', 'Kamlesh', 'Kumar', '5.jpg', '4074dc66def059a04f3fef44525700d5', 99, 'male', 'active', '2020-12-28 03:39:41', 'I\'m Sandra and this is where I share my stuff. I am madly in love with food. You will find a balance of healthy recipes, comfort food and indulgent desserts.', 2, 0);
+(1, 1, 'Admin', 'admin@admin.com', 'Kamlesh', 'Kumar', '1.jpg', 'e10adc3949ba59abbe56e057f20f883e', 99, 'male', 'active', '2018-08-15 02:25:41', 'I\'m Sandra and this is where I share my stuff. I am madly in love with food. You will find a balance of healthy recipes, comfort food and indulgent desserts.', 9, 0),
+(3, 2, 'rajesh', 'rajesh@i2k2.com', 'Rajesh', 'Jha', '3.jpg', 'e10adc3949ba59abbe56e057f20f883e', 99, 'male', 'active', '2018-08-15 03:39:41', 'I\'m Sandra and this is where I share my stuff. I am madly in love with food. You will find a balance of healthy recipes, comfort food and indulgent desserts.', 0, 0),
+(5, 2, 'kamlesh', 'kamlesh@i2k2.com', 'Kamlesh', 'Kumar', '5.jpg', 'e10adc3949ba59abbe56e057f20f883e', 99, 'male', 'active', '2020-12-28 03:39:41', 'I\'m Sandra and this is where I share my stuff. I am madly in love with food. You will find a balance of healthy recipes, comfort food and indulgent desserts.', 2, 0);
 
 --
 -- Indexes for dumped tables
